@@ -1,5 +1,7 @@
 # Human-like Social Media Reply Generator
 
+
+## Live url : https://social-reply-generator-bpz4myvtqfzrnc7web5q7t.streamlit.app/
 ## Overview
 
 This project implements a system designed to generate authentic, human-like replies to social media posts using generative AI. It features a REST API backend built with FastAPI, utilizes the Google Gemini API for reply generation, stores post-reply interactions in MongoDB Atlas, and includes an optional simple web frontend built with Streamlit.
