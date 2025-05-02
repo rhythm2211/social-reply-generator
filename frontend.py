@@ -3,8 +3,9 @@ import requests
 from datetime import datetime
 
 # Configuration
-BACKEND_URL_REPLY = "http://localhost:8000/reply"  # Your FastAPI /reply endpoint
-BACKEND_URL_GET_REPLIES = "http://localhost:8000/replies" # Your new FastAPI /replies endpoint
+# Configuration
+BACKEND_URL_REPLY = "https://social-reply-generator.onrender.com/reply"
+BACKEND_URL_GET_REPLIES = "https://social-reply-generator.onrender.com/replies"
 
 # Helper function to format timestamp from backend (which is likely string via JSON)
 def format_timestamp(ts_data):
